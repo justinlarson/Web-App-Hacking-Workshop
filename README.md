@@ -21,3 +21,11 @@ https://docs.docker.com/compose/install/
 		https://github.com/bkimminich/juice-shop
 ### Payload Lists
 		https://github.com/danielmiessler/SecLists
+		
+### Jucie Shop
+	https://github.com/bkimminich/juice-shop
+	
+### WebGoat 
+
+### My Shitty graphql, need to get that done FML
+
