@@ -5,13 +5,35 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 
 # Setup
 ## Tools
+## Cli tools needed
+	git 
 ### ZAP
 		https://github.com/zaproxy/zaproxy/wiki/Downloads
 ### Burp
 		https://portswigger.net/burp/communitydownload
-### Firefox
+
 ### Auto Chrome
 		https://github.com/nccgroup/autochrome
+		
+		macOS 10.9 (Mavericks) and higher
+		Ubuntu 16.04 (and other XDG-supporting Linuxes)
+		You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
+		
+		ruby --version
+		git clone git@github.com:nccgroup/autochrome.git
+		
+		1. ruby autochrome.rb
+		2. Launch Chromium.
+		3. MacOS: open ~/Applications/Chromium.app
+### Firefox
+	https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
+	
+	127.0.0.1:8080
+	
+### Installing Burp Suite Certificate
+	https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
+### SQLMap
+	git clone git@github.com:sqlmapproject/sqlmap.git
 ### Developers Tools
 ### Docker/Environment access
 		https://docs.docker.com/docker-for-mac/install/
@@ -20,6 +42,8 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		
 ### Payload Lists
 		https://github.com/danielmiessler/SecLists
+		
+		git clone git@github.com:danielmiessler/SecLists.git
 ## Applications 		
 ### Jucie Shop
 	https://github.com/bkimminich/juice-shop
