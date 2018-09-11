@@ -6,7 +6,7 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 # Setup
 ## Tools
 ## Cli tools needed
-	git 
+	git , brew 
 ### ZAP
 		https://github.com/zaproxy/zaproxy/wiki/Downloads
 ### Burp
