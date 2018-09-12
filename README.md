@@ -11,6 +11,9 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		https://github.com/zaproxy/zaproxy/wiki/Downloads
 ### Burp
 		https://portswigger.net/burp/communitydownload
+		
+		~Recommended~ Pro Trial License
+		https://portswigger.net/requestfreetrial/pro
 
 ### Auto Chrome
 		https://github.com/nccgroup/autochrome
