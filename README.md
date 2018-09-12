@@ -14,6 +14,9 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		
 		~Recommended~ Pro Trial License
 		https://portswigger.net/requestfreetrial/pro
+		
+### Chromium
+	download https://download-chromium.appspot.com
 
 ### Auto Chrome
 		https://github.com/nccgroup/autochrome
