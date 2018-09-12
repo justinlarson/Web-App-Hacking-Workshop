@@ -30,7 +30,9 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		
 		1. ruby autochrome.rb
 		2. Launch Chromium.
-		3. MacOS: open ~/Applications/Chromium.app
+			* MacOS: open ~/Applications/Chromium.app
+			* Linux: ~/.local/autochrome/chrome
+		3. Open the "Getting Started" bookmark.
 ### Firefox
 	https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
