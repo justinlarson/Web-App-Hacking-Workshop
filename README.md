@@ -64,12 +64,6 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 
 	
 ### ~WebGoat~
-	~https://github.com/WebGoat/WebGoat~
-	~Using docker-compose~
-	~The easiest way to start WebGoat as a Docker container is to use the docker-compose.yml file from our Github 	repository. This will start both containers and it also takes care of setting up the connection between WebGoat and WebWolf.~
-
-	~curl https://raw.githubusercontent.com/WebGoat/WebGoat/develop/docker-compose.yml | docker-compose -f - up~
-
 
 ### ~My Shitty graphql, need to get that done FML~
 
