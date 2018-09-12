@@ -15,10 +15,10 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		~Recommended~ Pro Trial License
 		https://portswigger.net/requestfreetrial/pro
 		
-### Chromium
+### Chromium (only download if using autochrome)
 	download https://download-chromium.appspot.com
 
-### Auto Chrome
+### AutoChrome (Mac/Linux only)
 		https://github.com/nccgroup/autochrome
 		
 		macOS 10.9 (Mavericks) and higher
@@ -33,7 +33,7 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 			* MacOS: open ~/Applications/Chromium.app
 			* Linux: ~/.local/autochrome/chrome
 		3. Open the "Getting Started" bookmark.
-### Firefox
+### Firefox 
 	https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
 	127.0.0.1:8080
