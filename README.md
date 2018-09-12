@@ -43,6 +43,7 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 ### SQLMap
 	git clone git@github.com:sqlmapproject/sqlmap.git
 ### Developers Tools
+ 	right click *Inspect*
 ### Docker/Environment access
 		https://docs.docker.com/docker-for-mac/install/
 		https://docs.docker.com/docker-for-windows/install/
