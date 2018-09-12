@@ -6,5 +6,5 @@
 | Get rid of all 5-star customer feedback. | 	:star::star:
 | Post some feedback in another users name. | 	:star::star::star:|
 |AltoroMutual | 
-| View another accounts history | star::star: |
+| View another accounts history | :star::star: |
 | Make jsmith filthy rich	| :star::star::star::star:|
