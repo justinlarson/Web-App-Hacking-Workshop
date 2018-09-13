@@ -76,6 +76,14 @@ Logger++
 	http://demo.testfire.net
 
 ### Vulnerable Task Mananger
+
+	https://github.com/sethlaw/vtm
+
+### Damn Vulnerable Web Services 
+
+https://github.com/snoopysecurity/dvws
+
+docker run --rm -it -p 80:80 cyrivs89/web-dvws
 	
 ### ~WebGoat~
 
