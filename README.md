@@ -15,6 +15,10 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		~Recommended~ Pro Trial License
 		https://portswigger.net/requestfreetrial/pro
 		
+### Postman
+
+		https://www.getpostman.com/apps
+		
 ### Chromium (only download if using autochrome)
 	download https://download-chromium.appspot.com
 
