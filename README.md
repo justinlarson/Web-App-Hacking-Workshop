@@ -15,6 +15,12 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 		~Recommended~ Pro Trial License
 		https://portswigger.net/requestfreetrial/pro
 		
+### Burp Extensions
+Open Burp go to Extender Tab > BApp Store 
+Wsdler
+Json Beautifier
+Logger++
+		
 ### Postman
 
 		https://www.getpostman.com/apps
