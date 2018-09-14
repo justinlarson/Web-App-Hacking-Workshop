@@ -40,13 +40,16 @@ Dump the data flags
 ### Forgot Password SQL Injection
 #### Step 1 - Validate SQL Injection Vulnerability
 Validate access to the vulnerable task manager application, you should see the following login page.
-* Insert Github link to login page image
+
+![vtm login](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-login.png)
 
 Access the Forgot Password Page
-* Insert github link to forgot password page
+
+![vtm forgot password](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-forgot-password.png)
 
 Validate that the email parameter throws a SQL error message by inserting `test@tm.com'` into the Email form field
-* Insert github link to Django error message
+
+![vtm sql error](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-email-sql-error.png)
 
 
 #### Step 2 - Use sqlmap to confirm vulnerability
