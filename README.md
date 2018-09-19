@@ -90,7 +90,7 @@ Make sure Git, Docker, Chromium and Ruby are already installed
 mkdir web-app-hacking-workshop
 cd web-app-hacking-workshop
 ```
-Download setup.sh to newly created directory
+Download setup.sh to the web-app-hacking-workshop directory
 ```
 chmod 755 setup.sh
 ./setup.sh
