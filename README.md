@@ -98,4 +98,4 @@ chmod 755 setup.sh
 * Chromium should open configured for Burp
 * Juice shop will be running at `http://localhost:3000/#/search`
 * DVWS will be running at `http://localhost/dvws/`
-
+* AltoroMutual is not running local but is at `http://demo.testfire.net`
