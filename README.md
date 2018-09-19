@@ -87,7 +87,17 @@ https://github.com/Cyrivs89/docker-dvws
 docker run --rm -it -p 80:80 cyrivs89/web-dvws
 	
 ### Easy Mac Setup
-``` mkdir web-app-hacking-workshop
-    cd web-app-hacking-workhop
+Make sure Git, Docker, Chromium and Ruby are already installed
+``` 
+mkdir web-app-hacking-workshop
+cd web-app-hacking-workhop
 ```
+Download setup.sh to newly created directory
+```
+chmod 755 setup.sh
+./setup.sh
+```
+Chromium should open configured for Burp
+Juice shop will be running at `http://localhost:3000/#/search`
+DVWS will be running at `http://localhost/dvws/`
 
