@@ -10,6 +10,7 @@ Download links are below this section
 	* Autochrome is a tool that configures Chromium to work with Burp out of the box(if more familiar with Chrome then download Chromium) 
 	* Don't use Safari, Opera, Internet Explorer, or Chrome
 4. Download Burp and Zap Proxies
+	* Seriously try and get a Trial Pro, you have to give them a work email and they will probably follow up or something but in our opinion it is the best tool for the job and will make the workshop better 
 5. Install Burp Extensions 
 6. If using Mac/Linux and use setup.sh in the `Easy Mac Setup` section
 	* This clones all needed git repos, pulls docker images, installs autochrome and starts docker containers
