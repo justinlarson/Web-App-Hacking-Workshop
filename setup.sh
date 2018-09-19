@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "[!] \n This won't work if you don't have git, docker and ruby installed, I didn't want to make it smart enough to check \n [!]"
+echo "[!] \n This won't work if you don't have git, docker, Chromium, and ruby installed. I didn't want to make it smart enough to check \n [!]"
 git clone git@github.com:sqlmapproject/sqlmap.git &
 git clone git@github.com:danielmiessler/SecLists.git &
 git clone git@github.com:nccgroup/autochrome.git &
