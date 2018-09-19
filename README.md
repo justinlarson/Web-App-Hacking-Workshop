@@ -86,7 +86,8 @@ https://github.com/snoopysecurity/dvws
 https://github.com/Cyrivs89/docker-dvws
 docker run --rm -it -p 80:80 cyrivs89/web-dvws
 	
-### ~WebGoat~
-
-### ~My Shitty graphql, need to get that done FML~
+### Easy Mac Setup
+``` mkdir web-app-hacking-workshop
+    cd web-app-hacking-workhop
+```
 
