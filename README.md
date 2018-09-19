@@ -88,7 +88,7 @@ docker run --rm -it -p 80:80 cyrivs89/web-dvws
 Make sure Git, Docker, Chromium and Ruby are already installed
 ``` 
 mkdir web-app-hacking-workshop
-cd web-app-hacking-workhop
+cd web-app-hacking-workshop
 ```
 Download setup.sh to newly created directory
 ```
