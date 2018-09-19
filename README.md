@@ -46,13 +46,11 @@ macOS 10.9 (Mavericks) and higher
 Ubuntu 16.04 (and other XDG-supporting Linuxes) 
 You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
 		
-git clone git@github.com:nccgroup/autochrome.git
-		
-		1. ruby autochrome.rb
-		2. Launch Chromium.
+		git clone git@github.com:nccgroup/autochrome.git
+	        ruby autochrome/autochrome.rb
+		Launch Chromium.
 			* MacOS: open ~/Applications/Chromium.app
 			* Linux: ~/.local/autochrome/chrome
-		3. Open the "Getting Started" bookmark.
 ### Firefox 
 https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
