@@ -27,8 +27,8 @@ download https://download-chromium.appspot.com
 ### AutoChrome (Mac/Linux only)
 https://github.com/nccgroup/autochrome
 		
-macOS 10.9 (Mavericks) and higher
-Ubuntu 16.04 (and other XDG-supporting Linuxes)
+macOS 10.9 (Mavericks) and higher 
+Ubuntu 16.04 (and other XDG-supporting Linuxes) 
 You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
 		
 git clone git@github.com:nccgroup/autochrome.git
@@ -50,9 +50,9 @@ git clone git@github.com:sqlmapproject/sqlmap.git
 ### Developers Tools
  right click *Inspect*
 ### Docker/Environment access
-https://docs.docker.com/docker-for-mac/install/
-https://docs.docker.com/docker-for-windows/install/
-https://docs.docker.com/compose/install/
+https://docs.docker.com/docker-for-mac/install/ 
+https://docs.docker.com/docker-for-windows/install/ 
+https://docs.docker.com/compose/install/ 
 		
 ### Payload Lists
 https://github.com/danielmiessler/SecLists
