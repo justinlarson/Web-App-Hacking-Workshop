@@ -2,7 +2,7 @@
 
 | Challenges | Difficulty |
 | ---- | ---- |
-| Juice Sho | |
+| Juice Shop | |
 | Bruteforce Admin Login | :star::star: |
 | Altoro Mutual | |
 | Bruteforce Logins | :star::star: |
