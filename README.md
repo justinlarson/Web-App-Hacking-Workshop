@@ -77,13 +77,12 @@ https://support.portswigger.net/customer/portal/articles/1783087-installing-burp
 git clone git@github.com:sqlmapproject/sqlmap.git
 ```
 ### Payload Lists
-https://github.com/danielmiessler/SecLists
 ```
 git clone git@github.com:danielmiessler/SecLists.git
 ```
 # Applications 		
 ### Jucie Shop
-	https://github.com/bkimminich/juice-shop
+https://github.com/bkimminich/juice-shop
 	docker pull bkimminich/juice-shop
 	docker run --rm -p 3000:3000 bkimminich/juice-shop
 	Browse to http://localhost:3000 
