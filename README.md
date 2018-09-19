@@ -25,9 +25,7 @@ Download links are below this section
 11. Take a nap
 12. You still here, great!
 13. Now We Hack!!	
-## Tools
-## Cli tools needed
-	Git, Docker
+# Tools
 ### GIT
 https://git-scm.com/downloads
 ### Docker/Environment access
@@ -82,11 +80,9 @@ git clone git@github.com:danielmiessler/SecLists.git
 ## Applications 		
 ### Jucie Shop
 	https://github.com/bkimminich/juice-shop
-	
-	1. Install Docker
-	2. Run docker pull bkimminich/juice-shop
-	3. Run docker run --rm -p 3000:3000 bkimminich/juice-shop
-	4. Browse to http://localhost:3000 
+	docker pull bkimminich/juice-shop
+	docker run --rm -p 3000:3000 bkimminich/juice-shop
+	Browse to http://localhost:3000 
 
 ### AltoroMutual
 http://demo.testfire.net
