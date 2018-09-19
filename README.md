@@ -16,7 +16,7 @@ https://portswigger.net/burp/communitydownload
 https://portswigger.net/requestfreetrial/pro
 		
 ### Burp Extensions
-Open Burp go to Extender Tab > BApp Store 
+Open Burp go to Extender Tab > BApp Store .  
 Wsdler
 Json Beautifier
 Logger++
