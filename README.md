@@ -10,10 +10,10 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 ### ZAP
 		https://github.com/zaproxy/zaproxy/wiki/Downloads
 ### Burp
-		https://portswigger.net/burp/communitydownload
+https://portswigger.net/burp/communitydownload
 		
-		~Recommended~ Pro Trial License
-		https://portswigger.net/requestfreetrial/pro
+*Highly Recommended* Get the Pro Trial License 
+https://portswigger.net/requestfreetrial/pro
 		
 ### Burp Extensions
 Open Burp go to Extender Tab > BApp Store 
@@ -77,8 +77,10 @@ https://github.com/sethlaw/vtm
 
 https://github.com/snoopysecurity/dvws
 
-https://github.com/Cyrivs89/docker-dvws
+https://github.com/Cyrivs89/docker-dvws . 
+```
 docker run --rm -it -p 80:80 cyrivs89/web-dvws
+```
 	
 ### Easy Mac Setup
 Make sure Git, Docker, Chromium and Ruby are already installed
