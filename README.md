@@ -72,12 +72,15 @@ Open Burp go to Extender Tab > BApp Store
 https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
 
 ### SQLMap
+```
 git clone git@github.com:sqlmapproject/sqlmap.git
-
+```
 ### Payload Lists
 https://github.com/danielmiessler/SecLists
+```
 git clone git@github.com:danielmiessler/SecLists.git
-## Applications 		
+```
+# Applications 		
 ### Jucie Shop
 	https://github.com/bkimminich/juice-shop
 	docker pull bkimminich/juice-shop
@@ -100,7 +103,7 @@ https://github.com/Cyrivs89/docker-dvws .
 docker run --rm -it -p 80:80 cyrivs89/web-dvws
 ```
 	
-### Easy Mac Setup
+## Easy Mac Setup
 Make sure Git, Docker, Chromium and Ruby are already installed
 ``` 
 mkdir web-app-hacking-workshop
