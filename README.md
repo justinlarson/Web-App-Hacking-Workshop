@@ -22,17 +22,16 @@ Json Beautifier
 Logger++
 		
 ### Chromium (only download if using autochrome)
-	download https://download-chromium.appspot.com
+download https://download-chromium.appspot.com
 
 ### AutoChrome (Mac/Linux only)
-		https://github.com/nccgroup/autochrome
+https://github.com/nccgroup/autochrome
 		
-		macOS 10.9 (Mavericks) and higher
-		Ubuntu 16.04 (and other XDG-supporting Linuxes)
-		You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
+macOS 10.9 (Mavericks) and higher
+Ubuntu 16.04 (and other XDG-supporting Linuxes)
+You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
 		
-		ruby --version
-		git clone git@github.com:nccgroup/autochrome.git
+git clone git@github.com:nccgroup/autochrome.git
 		
 		1. ruby autochrome.rb
 		2. Launch Chromium.
@@ -40,25 +39,24 @@ Logger++
 			* Linux: ~/.local/autochrome/chrome
 		3. Open the "Getting Started" bookmark.
 ### Firefox 
-	https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
+https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
-	127.0.0.1:8080
+127.0.0.1:8080
 	
 ### Installing Burp Suite Certificate
-	https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
+https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
 ### SQLMap
-	git clone git@github.com:sqlmapproject/sqlmap.git
+git clone git@github.com:sqlmapproject/sqlmap.git
 ### Developers Tools
- 	right click *Inspect*
+ right click *Inspect*
 ### Docker/Environment access
-		https://docs.docker.com/docker-for-mac/install/
-		https://docs.docker.com/docker-for-windows/install/
-		https://docs.docker.com/compose/install/
+https://docs.docker.com/docker-for-mac/install/
+https://docs.docker.com/docker-for-windows/install/
+https://docs.docker.com/compose/install/
 		
 ### Payload Lists
-		https://github.com/danielmiessler/SecLists
-		
-		git clone git@github.com:danielmiessler/SecLists.git
+https://github.com/danielmiessler/SecLists
+git clone git@github.com:danielmiessler/SecLists.git
 ## Applications 		
 ### Jucie Shop
 	https://github.com/bkimminich/juice-shop
@@ -69,11 +67,11 @@ Logger++
 	4. Browse to http://localhost:3000 (on macOS and Windows browse to http://192.168.99.100:3000 if you are using docker-machine instead of the native docker installation)
 
 ### AltoroMutual
-	http://demo.testfire.net
+http://demo.testfire.net
 
 ### Vulnerable Task Mananger
 
-	https://github.com/sethlaw/vtm
+https://github.com/sethlaw/vtm
 
 ### Damn Vulnerable Web Services 
 
