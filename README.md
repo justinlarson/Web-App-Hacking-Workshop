@@ -8,13 +8,13 @@ Steps
 1. Download/Install Git
 2. Download/Install Docker
 3. Download Broswer of Choice
-	a. If you are on Windows just use Firefox
-	b. Autochrome is a tool that configures Chromium to work with Burp out of the Box(if more familiar with Chrome then download Chromium) 
-	c. Don't use Safari, Opera, Internet Explorer, or Chrome
+	* If you are on Windows just use Firefox
+	* Autochrome is a tool that configures Chromium to work with Burp out of the Box(if more familiar with Chrome then download Chromium) 
+	* Don't use Safari, Opera, Internet Explorer, or Chrome
 4. Download Burp and Zap Proxies
 5. Install Burp Extensions 
 6. If using Mac/Linux and use setup.sh in the `Easy Mac Setup` section
-	a. This clones all need git repos, pulls docker images, installs autochrome and starts docker containers
+	* This clones all need git repos, pulls docker images, installs autochrome and starts docker containers
 7. Clone Repos if not using `setup.sh` script from step 6.
 	* Autochrome (if using Chromium)
 	* SqlMap
