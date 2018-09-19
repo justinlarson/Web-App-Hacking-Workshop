@@ -1,15 +1,13 @@
 # Web-App-Hacking-Workshop
 Web App Hacking Workshop for Saintcon/Cactuscon
-
-
-
 # Setup
+Download links are below this section
 Steps
 1. Download/Install Git
 2. Download/Install Docker
-3. Download Broswer of Choice
+3. Download Browser
 	* If you are on Windows just use Firefox
-	* Autochrome is a tool that configures Chromium to work with Burp out of the Box(if more familiar with Chrome then download Chromium) 
+	* Autochrome is a tool that configures Chromium to work with Burp out of the box(if more familiar with Chrome then download Chromium) 
 	* Don't use Safari, Opera, Internet Explorer, or Chrome
 4. Download Burp and Zap Proxies
 5. Install Burp Extensions 
