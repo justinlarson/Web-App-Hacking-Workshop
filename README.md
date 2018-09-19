@@ -50,9 +50,9 @@ git clone git@github.com:sqlmapproject/sqlmap.git
 ### Developers Tools
  right click *Inspect*
 ### Docker/Environment access
-https://docs.docker.com/docker-for-mac/install/ 
-https://docs.docker.com/docker-for-windows/install/ 
-https://docs.docker.com/compose/install/ 
+https://docs.docker.com/docker-for-mac/install/  
+https://docs.docker.com/docker-for-windows/install/  
+https://docs.docker.com/compose/install/  
 		
 ### Payload Lists
 https://github.com/danielmiessler/SecLists
