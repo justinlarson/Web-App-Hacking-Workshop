@@ -97,7 +97,7 @@ Download setup.sh to newly created directory
 chmod 755 setup.sh
 ./setup.sh
 ```
-Chromium should open configured for Burp
-Juice shop will be running at `http://localhost:3000/#/search`
-DVWS will be running at `http://localhost/dvws/`
+* Chromium should open configured for Burp
+* Juice shop will be running at `http://localhost:3000/#/search`
+* DVWS will be running at `http://localhost/dvws/`
 
