@@ -6,9 +6,16 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 # Setup
 ## Tools
 ## Cli tools needed
-	Git, Docker, Ruby(if using Autochrome)
+	Git, Docker
+### GIT
+https://git-scm.com/downloads
+### Docker/Environment access
+https://docs.docker.com/docker-for-mac/install/  
+https://docs.docker.com/docker-for-windows/install/  
+https://docs.docker.com/compose/install/  
+## Proxies
 ### ZAP
-		https://github.com/zaproxy/zaproxy/wiki/Downloads
+https://github.com/zaproxy/zaproxy/wiki/Downloads
 ### Burp
 https://portswigger.net/burp/communitydownload
 		
@@ -20,7 +27,7 @@ Open Burp go to Extender Tab > BApp Store
 * Wsdler
 * Json Beautifier
 * Logger++
-		
+## Browsers	
 ### Chromium (only download if using autochrome)
 https://download-chromium.appspot.com
 
@@ -45,15 +52,10 @@ https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
 ### Installing Burp Suite Certificate
 https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
+
 ### SQLMap
 git clone git@github.com:sqlmapproject/sqlmap.git
-### Developers Tools
- right click *Inspect*
-### Docker/Environment access
-https://docs.docker.com/docker-for-mac/install/  
-https://docs.docker.com/docker-for-windows/install/  
-https://docs.docker.com/compose/install/  
-		
+
 ### Payload Lists
 https://github.com/danielmiessler/SecLists
 git clone git@github.com:danielmiessler/SecLists.git
