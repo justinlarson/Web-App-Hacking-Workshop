@@ -21,10 +21,6 @@ Wsdler
 Json Beautifier
 Logger++
 		
-### Postman
-
-		https://www.getpostman.com/apps
-		
 ### Chromium (only download if using autochrome)
 	download https://download-chromium.appspot.com
 
