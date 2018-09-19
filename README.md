@@ -16,13 +16,13 @@ https://portswigger.net/burp/communitydownload
 https://portswigger.net/requestfreetrial/pro
 		
 ### Burp Extensions
-Open Burp go to Extender Tab > BApp Store .  
-Wsdler
-Json Beautifier
-Logger++
+Open Burp go to Extender Tab > BApp Store  
+* Wsdler
+* Json Beautifier
+* Logger++
 		
 ### Chromium (only download if using autochrome)
-download https://download-chromium.appspot.com
+https://download-chromium.appspot.com
 
 ### AutoChrome (Mac/Linux only)
 https://github.com/nccgroup/autochrome
