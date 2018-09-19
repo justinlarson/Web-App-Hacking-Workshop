@@ -4,6 +4,29 @@ Web App Hacking Workshop for Saintcon/Cactuscon
 
 
 # Setup
+Steps
+1. Download/Install Git
+2. Download/Install Docker
+3. Download Broswer of Choice
+	a. If you are on Windows just use Firefox
+	b. Autochrome is a tool that configures Chromium to work with Burp out of the Box(if more familiar with Chrome then download Chromium) 
+	c. Don't use Safari, Opera, Internet Explorer, or Chrome
+4. Download Burp and Zap Proxies
+5. Install Burp Extensions 
+6. If using Mac/Linux and use setup.sh in the `Easy Mac Setup` section
+	a. This clones all need git repos, pulls docker images, installs autochrome and starts docker containers
+7. Clone Repos if not using `setup.sh` script from step 6.
+	* Autochrome (if using Chromium)
+	* SqlMap
+	* Payload Lists
+	* This Repo
+	* Solution Repo
+8. Configure Firefox
+9. Install Burp Certificate
+10. Run docker containers
+11. Take a nap
+12. You still here, great!
+13. Now We Hack!!	
 ## Tools
 ## Cli tools needed
 	Git, Docker
@@ -13,20 +36,7 @@ https://git-scm.com/downloads
 https://docs.docker.com/docker-for-mac/install/  
 https://docs.docker.com/docker-for-windows/install/  
 https://docs.docker.com/compose/install/  
-## Proxies
-### ZAP
-https://github.com/zaproxy/zaproxy/wiki/Downloads
-### Burp
-https://portswigger.net/burp/communitydownload
-		
-*Highly Recommended* Get the Pro Trial License 
-https://portswigger.net/requestfreetrial/pro
-		
-### Burp Extensions
-Open Burp go to Extender Tab > BApp Store  
-* Wsdler
-* Json Beautifier
-* Logger++
+
 ## Browsers	
 ### Chromium (only download if using autochrome)
 https://download-chromium.appspot.com
@@ -49,7 +59,21 @@ git clone git@github.com:nccgroup/autochrome.git
 https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
 127.0.0.1:8080
-	
+## Proxies
+### ZAP
+https://github.com/zaproxy/zaproxy/wiki/Downloads
+### Burp
+https://portswigger.net/burp/communitydownload
+		
+*Highly Recommended* Get the Pro Trial License 
+https://portswigger.net/requestfreetrial/pro
+		
+### Burp Extensions
+Open Burp go to Extender Tab > BApp Store  
+* Wsdler
+* Json Beautifier
+* Logger++	
+
 ### Installing Burp Suite Certificate
 https://support.portswigger.net/customer/portal/articles/1783087-installing-burp-s-ca-certificate-in-firefox
 
