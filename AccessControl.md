@@ -1,7 +1,7 @@
-# Broken Access Control
+# Access Control
 ### Description
 Ability to access functionality and resources by manipulating a user request.
-One of the most common and easily exploited flaws.
+One of the most common and easily-exploited flaws.
 
 AKA Improper Authorization, Insecure Direct Object Reference, Missing Function Level Access Control ... 
 
@@ -15,7 +15,7 @@ http://portswigger.net - HTTP Intercepting Proxy for interacting with web apps.
 
 | Attack Type | Application | Location | Tool |
 | ---- | ---- | ---- | ---- |
-| Access Control - Directory Enumeration | Vulnerable Task Manager | http://127.0.0.1:8000/taskManager/ | intruder |
+| Access Control - Directory Enumeration | Vulnerable Task Manager | http://127.0.0.1:8000/ | intruder |
 | Insecure Direct Object Reference | Vulnerable Task Manager | http://127.0.0.1:8000/taskManager/profile/3 | intruder |
 
 ### Access Control - Directory Enumeration
@@ -55,7 +55,7 @@ This is done by clicking the Payloads tab and then selecting `Directories - shor
 That is all we need to do to configure a simple attack, so let's run it and see what the responses look like.
 Click the `Start attack` button.
 
-![bs intruder start attack](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/bs-start-attack.png)
+![bs intruder start attack](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/bs-intruder-start-attack.png)
 
 This attack sends 362 requests to the server and records the responses for review.
 
