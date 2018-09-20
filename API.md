@@ -49,6 +49,10 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 ![Parse WSDL](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-parse-wsdl.png)
 WSDLER reveals private services of the wsdl. 
 ![Parsed WSDL](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-parsed-wsdl.png)
+OR in the case of DVWS simply searching the source with developer tools will reveal the wsdl endpoint. 
+![Inspect Source](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-inspect-source.png)
+
+
 | Challenge | Difficulty |
 | ----- | ----- |
 | DVWS | 
