@@ -32,7 +32,7 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 2. Clear all targeted attack positions.
 3. Add the target position to the end of the url and also add _?wsdl_ to the end.
 ![New Intruder Position](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-new-intruder-position.png)
-4. Add payloads from Seclists repo. 
+4. Add payloads from Seclists repo.   
 `/web-app-hacking/SecLists/Discovery/raft-small-files.txt`
 ![Add payloads](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-load-list.png)
 5. Add Grep option to make discovery easier. 
@@ -42,7 +42,7 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 * Clear box
 * Add `<?xml version=`
 ![Grep Option](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-grep-xml.png)
-6. Run Attack
+6. Start Attack
 7. Sort Results by the Grep Column for `<?xml version=`
 ![WSDL Found](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-wsdl-found.png)
 8. Parse WSDL with WSDLER
