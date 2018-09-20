@@ -15,12 +15,17 @@ https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f
 
 | Attack Type | Application | Location | Tool |
 | ---- | ---- | ---- | ---- |
-| WSDL Enumeraton | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/ |  intruder/WSDLER |
+| WSDL Enumeraton, find WSDL file | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/ |  intruder/WSDLER |
 | WSDL Scanning, find as many users as possible | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/| intruder |
 | XML External Entity Injection  | DVWS | http://localhost/dvws/vulnerabilities/xxe/ | intruder |
 | XPATH Injection, become Admin  | DVWS | http://localhost/dvws/vulnerabilities/xpath/xpath.php | intruder |
-### Access Control - Directory Enumeration
+###  Find WSDL File
+The common format is htt://localhost.com/someservice?WSDL 
+The Damn Vulnerable Web Service is not trying to be an actual application like VTM. It contains a list of vulnerabilities tied that are tied to endpoints. 
 
+The WSDL we are looking for is on this http://localhost/dvws/vulnerabilities/wsdlenum/
+
+![WSDL Enumeration](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-wsdl-enumeration.png)
 
 
 
