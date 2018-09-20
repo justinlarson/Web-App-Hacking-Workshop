@@ -98,8 +98,8 @@ The changes are reflected in the task details page.
 
 #### Step 2 - Identify Flawed Input Validation and Output Encoding
 
-Since vtm displays the stored task input, attempt to add special characters to the search phrase to determine what characters are displayed without validation or encoding.
-Enter `Advertising<>"';&` into the search field and click `Finish`
+Since vtm displays the stored task input, attempt to add special characters to the task title to determine what characters are displayed without validation or encoding.
+Enter `Advertising<>"';&` into the task title field and click `Finish`
 
 ![vtm task edit chars](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-task-edit-chars.png)
 
@@ -111,7 +111,7 @@ As shown, the browser knows that this source is malformed and highlights it, but
 
 #### Step 3 - Execute XSS attack
 
-Now we know that dangerous characters are available for use, execute an XSS attack by editing the task again and entering the following into the search box.
+Now we know that dangerous characters are available for use, execute an XSS attack by editing the task again and entering the following into the task title box.
 
 ```
 Advertising"><script>alert("XSS")</script>
@@ -122,7 +122,7 @@ Clicking `Finish` returns the task details page but with an executed JavaScript 
 
 ![vtm search popup](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-task-details-popup.png)
 
-Congratulations! You have successfully exploited a Reflected XSS vulnerability in the Vulnerable Task Manager.
+Congratulations! You have successfully exploited a Stored XSS vulnerability in the Vulnerable Task Manager.
 
 ## Challenges
 
