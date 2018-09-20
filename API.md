@@ -31,7 +31,7 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 1. Intercept first GET request to the endpoint above and send it intruder. 
 2. Clear all targeted attack positions.
 3. Add the target position to the end of the url and also add _?wsdl_ to the end.
-![New Intruder Position](https://github.com/justinlarson/Web-App-Hacking-Workshop/blob/raw/img/dvws-new-intruder-position.png)
+![New Intruder Position](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-new-intruder-position.png)
 4. Add payloads from Seclists repo. 
 `/web-app-hacking/SecLists/Discovery/raft-small-files-lowercase.txt`
 ![Add payloads](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-load-list.png)
