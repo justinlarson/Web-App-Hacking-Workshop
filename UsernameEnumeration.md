@@ -76,6 +76,9 @@ Even though the status code is the same (200), the length of the 2 responses var
 
 Sorting by response `Length` shows us 5 valid usernames discovered during the attack.
 
+![bs intruder ue valid](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/bs-intruder-attack-ue-valid.png)
+
+
 Congratulations! You have successfully enumerated valid usernames using Burp's Intruder functionality. 
 
 ## Challenges
