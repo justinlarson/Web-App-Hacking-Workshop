@@ -68,7 +68,7 @@ punk"><script>alert("XSS")</script>
 
 Clicking `Go!` returns the search page but with an executed JavaScript popup, stopping execution on the page and validating the existence of an XSS vulnerability.
 
-![vtm search popup](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-search-xss.png)
+![vtm search popup](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/vtm-search-popup.png)
 
 Congratulations! You have successfully exploited a Reflected XSS vulnerability in the Vulnerable Task Manager. 
 
