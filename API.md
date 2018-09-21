@@ -16,7 +16,6 @@ https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f
 | Attack Type | Application | Location | Tool |
 | ---- | ---- | ---- | ---- |
 | WSDL Enumeraton, find WSDL file | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/ |  intruder/WSDLER |
-| WSDL Scanning, find as many users as possible | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/| intruder |
 | XML External Entity Injection  | DVWS | http://localhost/dvws/vulnerabilities/xxe/ | intruder |
 | XPATH Injection, become Admin  | DVWS | http://localhost/dvws/vulnerabilities/xpath/xpath.php | intruder |
 ###  Find WSDL File
@@ -56,7 +55,6 @@ OR in the case of DVWS simply searching the source with developer tools will rev
 | Challenge | Difficulty |
 | ----- | ----- |
 | DVWS | 
-| WSDL Enumeration, find the WSDL file | :star: | 
 | WSDL Scanning, find as many users as possible| :star: | 
 | XML External Entity Injection | :star: | 
 | XPATH Injection, become Admin | :star: | 
