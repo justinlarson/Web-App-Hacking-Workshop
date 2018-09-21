@@ -19,6 +19,7 @@ http://portswigger.net - HTTP Intercepting Proxy for interacting with web apps.
 | Attack Type | Application | Location | Tool |
 | ---- | ---- | ---- | ---- |
 | Credential Brute Force | Vulnerable Task Manager | http://127.0.0.1:8000/taskManager/login/?next=/taskManager/  | intruder |
+| Credential Brute Force | Vulnerable Task Manager | http://127.0.0.1:8000/taskManager/login/?next=/taskManager/  | hydra |
 
 
 ### Credential Brute Force
@@ -98,6 +99,57 @@ Once the attack is complete, resort the attack responses by status code to deter
 
 Congratulations! You have successfully brute forced chris' password.
 Maybe you should try this again with a different password list that might be more successful.
+
+### Credential Brute Force
+
+#### Step 1 - Confirm Tool Access
+
+So let's try to brute force the same endpoint, but using hydra, a different brute force tool.
+Validate access by using the following hydra commands for a positive and negative check:
+
+```
+hydra -l chris -p test123 -s 8000 127.0.0.1 http-post-form "/taskManager/login:username=^USER^&password=^PASS^:S=Location\: /task"
+
+hydra -l chris -p invalid -s 8000 127.0.0.1 http-post-form "/taskManager/login:username=^USER^&password=^PASS^:S=Location\: /task"
+```
+
+Since we are providing the user credentials for `chris`, this cammand is successful. 
+Note that we are using `-l` and `-p` flags to specify a single username and password to try.
+In addition, by specifying the `S` parameter, we are telling hydra that any response that includes the `Location: /task` is a successful attempt.
+We will continue to use a set of valid credentials to insure our brute force is working.
+
+![vtm login](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/hydra-access-test.png)
+
+#### Step 2 - Configure Attack Parameters
+
+Create a file with valid usernames in it from the user enumeration walkthroughs.
+This same list is available in this github repository as _VTMUsernameList.txt_
+
+```
+admin
+chris
+seth
+ken
+dade
+pm
+```
+
+Pick a password list that isn't too long but has a few more lists in it, like rockyou or the adobe 1000.
+This repository includes a list of 1000 common passwords for testing _CommonPasswords.txt_.
+
+#### Step 3 - Attack and Analysis
+
+Run the following command, it does take a few minutes to complete:
+
+```
+hydra -L VTMUsernameList.txt -P CommonPasswords.txt -u -s 8000 127.0.0.1 http-post-form "/taskManager/login/:username=^USER^&password=^PASS^:S=Location\: /task"
+```
+
+If we were interested in only one user, we could speed up the attack by limiting the above list.
+
+![bs intruder start attack](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/hydra-attack.png)
+
+Congratulations! You have successfully brute forced chris' & seth's password using hydra.
 
 ## Challenges
 
