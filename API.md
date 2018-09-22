@@ -58,6 +58,4 @@ OR in the case of DVWS simply searching the source with developer tools will rev
 | WSDL Scanning, find as many users as possible| :star: | 
 | XML External Entity Injection | :star: | 
 | XPATH Injection, become Admin | :star: | 
-| Juice Shop |
-| Retrieve the content of C:\Windows\system.ini or /etc/passwd from the server. | :star::star::star: |
-| Give the server something to chew on for quite a while | :star::star::star::star::star: |
+| XXE 2 how about some /etc/passwd | :star::star: |
