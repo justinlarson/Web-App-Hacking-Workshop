@@ -1,6 +1,6 @@
 # Insecure Webservices
 ### Description
-Webservices are typically vulnerable to the same issues such as IDOR, SQLi or Enumerations. They do however require different approaches in order to exploit. 
+Webservices are typically vulnerable to the same issues such as IDOR, SQLi or Enumerations. 
 ### Tool
 #### Burp Suite Pro - Intruder
 http://portswigger.net - HTTP Intercepting Proxy for interacting with web apps.
@@ -19,8 +19,9 @@ https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f
 | XML External Entity Injection  | DVWS | http://localhost/dvws/vulnerabilities/xxe/ | intruder |
 | XPATH Injection, become Admin  | DVWS | http://localhost/dvws/vulnerabilities/xpath/xpath.php | intruder |
 ###  Find WSDL File
-The common format is htt://localhost.com/someservice?wsdl
-The Damn Vulnerable Web Service is not trying to be an actual application like VTM. It contains a list of vulnerabilities tied that are tied to endpoints. 
+The common format is http://localhost.com/someservice?wsdl
+
+The Damn Vulnerable Web Service is not trying to be an actual application like VTM. It contains a list of vulnerable endpoints. 
 
 The WSDL is located at this endpoint.  
 http://localhost/dvws/vulnerabilities/wsdlenum/
@@ -29,7 +30,7 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 !! Make sure WSDLER Extension is installed !!
 1. Intercept first GET request to the endpoint above and send it intruder. 
 2. Clear all targeted attack positions.
-3. Add the target position to the end of the url and also add _?wsdl_ to the end.
+3. Add the target position to the url and also add _?wsdl_ after the position.
 ![New Intruder Position](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-new-intruder-position.png)
 4. Add payloads from Seclists repo.   
 `/web-app-hacking/SecLists/Discovery/raft-small-files.txt`
@@ -44,9 +45,9 @@ http://localhost/dvws/vulnerabilities/wsdlenum/
 6. Start Attack
 7. Sort Results by the Grep Column for `<?xml version=`
 ![WSDL Found](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-wsdl-found.png)
-8. Parse WSDL with WSDLER
+8. Select request and `Parse WSDL` with WSDLER
 ![Parse WSDL](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-parse-wsdl.png)
-WSDLER reveals private services of the wsdl. 
+WSDLER reveals the private services of the wsdl. 
 ![Parsed WSDL](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-parsed-wsdl.png)
 OR in the case of DVWS simply searching the source with developer tools will reveal the wsdl endpoint. 
 ![Inspect Source](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-inspect-source.png)
