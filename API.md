@@ -17,8 +17,7 @@ https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f
 | ---- | ---- | ---- | ---- |
 | WSDL Enumeraton, find WSDL file | DVWS | http://localhost/dvws/vulnerabilities/wsdlenum/ |  intruder/WSDLER |
 | XML External Entity Injection  | DVWS | http://localhost/dvws/vulnerabilities/xxe/ | intruder |
-| XPATH Injection, become Admin  | DVWS | http://localhost/dvws/vulnerabilities/xpath/xpath.php | intruder |
-###  Find WSDL File
+###  WSDL Enumeraton
 The common format is http://localhost.com/someservice?wsdl
 
 The Damn Vulnerable Web Service is not trying to be an actual application like VTM. It contains a list of vulnerable endpoints. 
@@ -51,7 +50,15 @@ WSDLER reveals the private services of the wsdl.
 ![Parsed WSDL](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-parsed-wsdl.png)
 OR in the case of DVWS simply searching the source with developer tools will reveal the wsdl endpoint. 
 ![Inspect Source](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-inspect-source.png)
-
+ 
+### XML External Entity Injection
+1. Go to the XML External Entity Processing link in DVWS
+![XXE](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-xml-injection.png)
+2. Add payload to input box and submit
+```
+<!DOCTYPE foo [<!ENTITY xee1 "Baby shark, doo doo doo, doo doo doo doo doo. "><!ENTITY xee2 "&xee1;&xee1;"><!ENTITY xee3 "&xee2;&xee2;"><!ENTITY xee4 "&xee3;&xee3;">]><name>&xee4;</name>
+```
+![XXE Baby Shark](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/dvws-xml-baby-shark-doo-doo.png)
 
 | Challenge | Difficulty |
 | ----- | ----- |
