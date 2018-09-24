@@ -88,4 +88,4 @@ Congratulations! You have successfully enumerated valid usernames using Burp's I
 | User Registration | :star: |
 | Forgot Password | :star: :star: :star: |
 | Altoro Mutual | |
-| Login | :star:|
+| Login Hint: Use CommonUsernameList.txt | :star:|
