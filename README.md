@@ -80,6 +80,18 @@ git clone git@github.com:sqlmapproject/sqlmap.git
 ```
 git clone git@github.com:danielmiessler/SecLists.git
 ```
+### Hydra
+```
+MacOs: brew install hydra
+```
+```
+git clone git@github.com:vanhauser-thc/thc-hydra.git
+cd thc-hydra
+./configure
+make 
+make install
+```
+
 # Applications 		
 ### Jucie Shop
 https://github.com/bkimminich/juice-shop
