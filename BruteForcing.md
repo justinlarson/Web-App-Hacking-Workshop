@@ -113,7 +113,7 @@ hydra -l chris -p test123 -s 8000 127.0.0.1 http-post-form "/taskManager/login:u
 hydra -l chris -p invalid -s 8000 127.0.0.1 http-post-form "/taskManager/login:username=^USER^&password=^PASS^:S=Location\: /task"
 ```
 
-Since we are providing the user credentials for `chris`, this cammand is successful. 
+Since we are providing the user credentials for `chris`, this command is successful. 
 Note that we are using `-l` and `-p` flags to specify a single username and password to try.
 In addition, by specifying the `S` parameter, we are telling hydra that any response that includes the `Location: /task` is a successful attempt.
 We will continue to use a set of valid credentials to insure our brute force is working.
