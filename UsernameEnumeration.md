@@ -84,8 +84,9 @@ Congratulations! You have successfully enumerated valid usernames using Burp's I
 ## Challenges
 | Challenge	| Difficulty |
 | ----- | ----- |
-| Juice Shop | | 
-| User Registration | :star: |
-| Forgot Password | :star: :star: :star: |
 | Altoro Mutual | |
 | Login Hint: Use CommonUsernameList.txt | :star:|
+| Juice Shop | | 
+| User Registration | :star::star: |
+| Forgot Password | :star: :star: :star: |
+
