@@ -9,7 +9,7 @@ Download links are below this section
 	* If you are on Windows just use Firefox
 	* Autochrome is a tool that configures Chromium to work with Burp out of the box(if more familiar with Chrome then download Chromium) 
 	* Don't use Safari, Opera, Internet Explorer, or Chrome
-4. Download Burp Suite and Zap Proxies
+4. Download Burp Suite ~and Zap Proxies~
 	* Seriously, try and get a Burp Suite Pro Trial. You have to give them a work email and they will probably follow up or something but in our opinion it is the best tool for the job and will make the workshop better. 
 5. Install Burp Extensions 
 6. If using Mac/Linux and use setup.sh in the `Easy Mac Setup` section
@@ -33,7 +33,10 @@ https://git-scm.com/downloads
 https://docs.docker.com/docker-for-mac/install/  
 https://docs.docker.com/docker-for-windows/install/  
 https://docs.docker.com/compose/install/  
-
+### Brew Install
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 ## Browsers	
 ### Chromium (only download if using autochrome)
 https://download-chromium.appspot.com
@@ -55,12 +58,12 @@ https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
 127.0.0.1:8080
 ## Proxies
-### ZAP
-https://github.com/zaproxy/zaproxy/wiki/Downloads
+### ~Zap~
+~https://github.com/zaproxy/zaproxy/wiki/Downloads~
 ### Burp
 https://portswigger.net/burp/communitydownload
 		
-*Highly Recommended* Get the Pro Trial License 
+*Highly Recommended* to get the Pro Trial License 
 https://portswigger.net/requestfreetrial/pro
 		
 ### Burp Extensions
