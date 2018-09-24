@@ -158,10 +158,13 @@ Allow sqlmap to run a brute-force attack against the identified md5 hashes and y
 Congratulations! Test out `dade`'s password to verify that the credentials are active.
 
 ## Challenges
-http://demo.testfire.net
+
 
 | Challenge | Difficulty |
 | ---- | ---- |
+| Altoro Mutual | http://demo.testfire.net |
 | Bypass Login | :star: |
 | That's a sketchy transaction | :star::star::star: |
 | Make `jsmith` filthy rich (hint: Access Control chaining)	| :star::star::star::star::star:|
+| Juice Shop | http://localhost:3000 |
+| Bypass login | :star: |
