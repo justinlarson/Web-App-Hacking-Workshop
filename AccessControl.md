@@ -123,7 +123,7 @@ Setup the numbers attack to send attack payloads from 1 to 100. Make sure to fil
 
 Start the attack.
 
-![bs intruder start attack](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/bs-start-attack.png)
+![bs intruder start attack](https://github.com/justinlarson/Web-App-Hacking-Workshop/raw/master/img/bs-intruder-start-attack.png)
 
 Review the list of results, notice the different in status codes between different numbers.
 
