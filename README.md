@@ -118,14 +118,15 @@ https://github.com/Cyrivs89/docker-dvws .
 docker run --rm -it -p 80:80 cyrivs89/web-dvws
 ```
 	
-## Easy Mac Setup
-Make sure Git, Docker, Chromium and Ruby are already installed
+## Easy MacOS Setup
+Make sure Git, Docker, Brew, Chromium and Ruby are already installed
 ``` 
 mkdir web-app-hacking-workshop
 cd web-app-hacking-workshop
 ```
 Download setup.sh to the web-app-hacking-workshop directory
 ```
+wget "https://raw.githubusercontent.com/justinlarson/Web-App-Hacking-Workshop/master/setup.sh"
 chmod 755 setup.sh
 ./setup.sh
 ```
