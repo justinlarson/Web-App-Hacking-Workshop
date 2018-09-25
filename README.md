@@ -140,7 +140,8 @@ chmod 755 setup.sh
 
 ## Easy Kali Setup
 This will install docker, clone all the repos, and start all the apps. :fingers_crossed:
-
+This didn't work in the Live CD version of Kali for some reason it needed to be installed.
+It worked with 40G of disk space and 6G of Memory
 ```
 git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
 cd Web-App-Hacking-Workshop
