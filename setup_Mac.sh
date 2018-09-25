@@ -8,7 +8,7 @@ git clone https://github.com/nccgroup/autochrome.git &
 ruby autochrome/autochrome.rb
 open ~/Applications/Chromium.app &
 git clone https://github.com/sethlaw/vtm.git 
-brew services mysql start
+brew services start mysql
 mysqladmin -u root create vtmdb
 cd vtm
 pip3.7 install -r requirements.txt
