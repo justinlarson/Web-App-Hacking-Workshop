@@ -4,7 +4,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/sources.list.d/docker.list
 apt-get update -y
 apt-get install docker-ce -y
-apt-get install python3-pip mysql -y
+apt-get install python3-pip -y
 git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git &
 git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
 git clone https://github.com/sqlmapproject/sqlmap.git &
