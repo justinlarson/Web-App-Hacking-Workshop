@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "[!] \n This won't work if you don't have git, docker, Chromium, and ruby installed. I didn't want to make it smart enough to check \n [!]"
-apt-get --qq install python3-pip mysql -y
+apt-get install python3-pip mysql -y
 # git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git &
 # git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
 # git clone https://github.com/sqlmapproject/sqlmap.git &
@@ -11,8 +11,10 @@ git clone https://github.com/sethlaw/vtm.git
 mysqld &
 mysqladmin -u root create vtmdb
 cd vtm
-apt-get --qq install default-libmysqlclient-dev -y
-pip3 install django django_extensions mysqlclient
+apt-get install default-libmysqlclient-dev -y
+pip3 install django 
+pip3 install django_extensions 
+pip3 install mysqlclient
 python3 manage.py migrate
 python3 manage.py loaddata taskManager/fixtures/*
 python3 manage.py runserver & 
