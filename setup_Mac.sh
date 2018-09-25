@@ -1,14 +1,13 @@
 #!/bin/bash
 echo "[!] \n This won't work if you don't have git, brew, docker, Chromium, and ruby installed. I didn't want to make it smart enough to check \n [!]"
-git clone git@github.com:justinlarson/Web-App-Hacking-Workshop.git &
-git clone git@github.com:justinlarson/web-app-hacking-workshop-solutions.git &
+git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
 brew install hydra mysql python3 &
-git clone git@github.com:sqlmapproject/sqlmap.git &
-git clone git@github.com:danielmiessler/SecLists.git &
-git clone git@github.com:nccgroup/autochrome.git &
+git clone https://github.com/sqlmapproject/sqlmap.git &
+git clone https://github.com/danielmiessler/SecLists.git &
+git clone https://github.com/nccgroup/autochrome.git &
 ruby autochrome/autochrome.rb
 open ~/Applications/Chromium.app &
-git clone git@github.com:sethlaw/vtm.git 
+git clone https://github.com/sethlaw/vtm.git 
 mysqladmin -u root create vtmdb
 cd vtm
 pip3.7 install -r requirements.txt
