@@ -123,24 +123,21 @@ docker run --rm -it -p 80:80 cyrivs89/web-dvws
 ## Easy MacOS Setup
 Make sure Git, Docker, Brew, Chromium and Ruby are already installed
 ``` 
-mkdir web-app-hacking-workshop
-cd web-app-hacking-workshop
-```
-Download setup.sh to the web-app-hacking-workshop directory
-```
-wget "https://raw.githubusercontent.com/justinlarson/Web-App-Hacking-Workshop/master/setup.sh"
-chmod 755 setup.sh
-./setup.sh
+git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
+cd Web-App-Hacking-Workshop
+chmod 755 setup_Mac.sh
+./setup_Mac.sh
 ```
 * Chromium should open configured for Burp
 * Juice shop will be running at `http://localhost:3000/#/search`
 * DVWS will be running at `http://localhost/dvws/`
+* VTM will be running at `http://localhost:8000`
 * AltoroMutual is not running local but is at `http://demo.testfire.net`
 
 
 ## Easy Kali Setup
 This will install docker, clone all the repos, and start all the apps. :fingers_crossed:
-This didn't work in the Live CD version of Kali for some reason it needed to be installed.
+This didn't work in the Live CD version of Kali, for some reason it needed to be installed.
 It worked with 40G of disk space and 6G of Memory
 ```
 git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
