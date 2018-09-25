@@ -143,5 +143,6 @@ It worked with 40G of disk space and 6G of Memory
 git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
 cd Web-App-Hacking-Workshop
 chmod 755 setup_Kali.sh
+*RUN as ROOT*
 ./setup_Kali.sh
 ```
