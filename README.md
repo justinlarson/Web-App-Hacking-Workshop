@@ -34,6 +34,8 @@ https://git-scm.com/downloads
 https://docs.docker.com/docker-for-mac/install/  
 https://docs.docker.com/docker-for-windows/install/  
 https://docs.docker.com/compose/install/  
+Docker on Kali
+	https://medium.com/@airman604/installing-docker-in-kali-linux-2017-1-fbaa4d1447fe
 ### Brew Install
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
