@@ -11,8 +11,8 @@ git clone https://github.com/sethlaw/vtm.git
 mysqld &
 mysqladmin -u root create vtmdb
 cd vtm
-apt-get install python3-pip -y
-pip3 install django django_extensions default-libmysqlclient-dev mysqlclient
+apt-get --qq install default-libmysqlclient-dev -y
+pip3 install django django_extensions mysqlclient
 python3 manage.py migrate
 python3 manage.py loaddata taskManager/fixtures/*
 python3 manage.py runserver & 
