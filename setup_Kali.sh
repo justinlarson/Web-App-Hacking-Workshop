@@ -8,7 +8,7 @@ apt-get install python3-pip mysql -y
 # git clone https://github.com/nccgroup/autochrome.git &
 # ruby autochrome/autochrome.rb
 git clone https://github.com/sethlaw/vtm.git 
-mysqld &
+/etc/init.d/mysql start
 mysqladmin -u root create vtmdb
 cd vtm
 apt-get install default-libmysqlclient-dev -y
