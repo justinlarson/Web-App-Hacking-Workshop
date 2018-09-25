@@ -137,3 +137,14 @@ chmod 755 setup.sh
 * Juice shop will be running at `http://localhost:3000/#/search`
 * DVWS will be running at `http://localhost/dvws/`
 * AltoroMutual is not running local but is at `http://demo.testfire.net`
+
+
+## Easy Kali Setup
+This will install docker, clone all the repos, and start all the apps. :fingers_crossed:
+
+```
+git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
+cd Web-App-Hacking-Workshop
+chmod 755 setup_Kali.sh
+./setup_Kali.sh
+```
