@@ -40,7 +40,7 @@ xgadmin.asp
 pnadmin.php
 admin_setup
 blocksadmin
-administrar
+administration
 admin.phtml
 myadmin.asp
 admincp.php
