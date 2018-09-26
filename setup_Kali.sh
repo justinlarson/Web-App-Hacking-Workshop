@@ -31,9 +31,9 @@ git clone https://github.com/sethlaw/vtm.git
 /etc/init.d/mysql start
 ##create database
 mysqladmin -u root create vtmdb
-python3 manage.py migrate
-python3 manage.py loaddata taskManager/fixtures/*
-python3 manage.py runserver & 
+python3 vtm/manage.py migrate
+python3 vtm/manage.py loaddata taskManager/fixtures/*
+python3 vtm/manage.py runserver & 
 ###pull and run docker images
 docker run --detach --rm -it -p 80:80 cyrivs89/web-dvws &
 docker pull bkimminich/juice-shop
