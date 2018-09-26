@@ -165,6 +165,6 @@ Congratulations! Test out `dade`'s password to verify that the credentials are a
 | Altoro Mutual | http://demo.testfire.net |
 | Bypass Login | :star: |
 | That's a sketchy transaction | :star::star::star: |
-| Make `jsmith` richer at others expense (hint: Access Control chaining)	| :star::star::star::star::star:|
+| View all transactions	| :star::star::star:|
 | Juice Shop | http://localhost:3000 |
 | Bypass login | :star: |
