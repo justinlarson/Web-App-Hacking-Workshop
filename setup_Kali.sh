@@ -3,7 +3,7 @@ echo "[!] \n This won't work if you don't have git, docker, and ruby installed. 
 #install pip3, makes assumption that python3 installed
 
 apt-get install python3-pip -y
-apt-get install default-libmysqlclient-dev -y &
+apt-get install default-libmysqlclient-dev -y 
 pip3 install django 
 pip3 install django_extensions 
 pip3 install mysqlclient
