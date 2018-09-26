@@ -16,12 +16,12 @@ apt-get install docker-ce -y
 
 # Clone all the repos for 
 git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
-git clone https://github.com/sqlmapproject/sqlmap.git &
+#git clone https://github.com/sqlmapproject/sqlmap.git &
 git clone https://github.com/danielmiessler/SecLists.git &
-git clone https://github.com/nccgroup/autochrome.git 
+#git clone https://github.com/nccgroup/autochrome.git 
 
 # Installing autochrome
-ruby autochrome/autochrome.rb
+#ruby autochrome/autochrome.rb
 
 # VTM application 
 ## clone repo
