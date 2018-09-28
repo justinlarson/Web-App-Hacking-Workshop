@@ -7,11 +7,10 @@ git clone https://github.com/danielmiessler/SecLists.git &
 git clone https://github.com/sethlaw/vtm.git 
 brew services start mysql
 mysqladmin -u root create vtmdb
-cd vtm
 pip3.7 install -r requirements.txt
-python3 manage.py migrate
-python3 manage.py loaddata taskManager/fixtures/*
-python3 manage.py runserver & 
+python3 vtm/manage.py migrate
+python3 vtm/manage.py loaddata taskManager/fixtures/*
+python3 vtm/manage.py runserver & 
 docker run --detach --rm -it -p 80:80 cyrivs89/web-dvws &
 docker pull bkimminich/juice-shop
 docker run --detach --rm -p 3000:3000 bkimminich/juice-shop
