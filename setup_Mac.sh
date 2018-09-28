@@ -7,7 +7,7 @@ git clone https://github.com/danielmiessler/SecLists.git &
 git clone https://github.com/sethlaw/vtm.git 
 brew services start mysql
 mysqladmin -u root create vtmdb
-pip3.7 install -r requirements.txt
+pip3.7 install -r vtm/requirements.txt
 python3 vtm/manage.py migrate
 python3 vtm/manage.py loaddata taskManager/fixtures/*
 python3 vtm/manage.py runserver & 
