@@ -4,9 +4,6 @@ git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git
 brew install hydra mysql python3 &
 git clone https://github.com/sqlmapproject/sqlmap.git &
 git clone https://github.com/danielmiessler/SecLists.git &
-#git clone https://github.com/nccgroup/autochrome.git &
-#ruby autochrome/autochrome.rb
-#open ~/Applications/Chromium.app &
 git clone https://github.com/sethlaw/vtm.git 
 brew services start mysql
 mysqladmin -u root create vtmdb
