@@ -1,4 +1,4 @@
-# SQL Injection
+# SQL Injection (15 Minutes)
 ### Description
 Ability to influence the structure of a SQL database query through unsafe includes of user input.
 
