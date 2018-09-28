@@ -30,6 +30,9 @@ First look at the Easy Setups at the bottom if you are running MacOs or Kali Lin
 https://git-scm.com/downloads
 ### Docker/Environment access
 https://docs.docker.com/docker-for-mac/install/  
+```
+brew install docker
+```
 https://docs.docker.com/docker-for-windows/install/  
 https://docs.docker.com/compose/install/  
 Docker on Kali
