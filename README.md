@@ -1,5 +1,5 @@
 # Web-App-Hacking-Workshop
-Seth Law @sethlaw 
+Seth Law @sethlaw . 
 Justin Larson @phant0mtrav3ler
 # Setup
 Download links are below this section
