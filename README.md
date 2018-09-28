@@ -1,7 +1,7 @@
 # Web-App-Hacking-Workshop
 ![CactusCon](https://github.com/justinlarson/Web-App-Hacking-Workshop/blob/master/img/cactuscon.png?raw=true)
- Seth Law @sethlaw  
- Justin Larson @phant0mtrav3ler
+  Seth Law @sethlaw  
+  Justin Larson @phant0mtrav3ler
 # Setup
 Download links are below this section
 #### Steps
