@@ -1,5 +1,6 @@
 # Web-App-Hacking-Workshop
-Web App Hacking Workshop for Saintcon/Cactuscon
+Seth Law @sethlaw
+Justin Larson @phant0mtrav3ler
 # Setup
 Download links are below this section
 #### Steps
