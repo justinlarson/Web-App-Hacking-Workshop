@@ -51,6 +51,9 @@ https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 ## Proxy
 ### Burp
 https://portswigger.net/burp/communitydownload
+```
+brew cask install burp-suite
+```
 		
 *Highly Recommended* to get the Pro Trial License 
 https://portswigger.net/requestfreetrial/pro
