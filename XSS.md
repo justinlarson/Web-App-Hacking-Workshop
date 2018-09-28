@@ -1,4 +1,4 @@
-# Cross-Site Scripting (XSS)
+# Cross-Site Scripting (XSS) ( 15 Minutes)
 ### Description
 Ability to inject and execute arbitrary HTML within a user’s browser.
 
