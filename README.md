@@ -6,18 +6,15 @@ Download links are below this section
 First look at the Easy Setups at the bottom if you are running MacOs or Kali Linux.
 1. Download/Install Git
 2. Download/Install Docker
-3. Download Browser
-	* If you are on Windows just use Firefox
-	* Autochrome is a tool that configures Chromium to work with Burp out of the box(if more familiar with Chrome then download Chromium) 
-	* Don't use Safari, Opera, Internet Explorer, or Chrome
+3. Download/Install Firefox
+	* Don't use Safari, Opera, Internet Explorer,Edge, or Chrome
 4. Download Burp Suite 
 	* Seriously, try and get a Burp Suite Pro Trial. You have to give them a work email and they will probably follow up or something but in our opinion it is the best tool for the job and will make the workshop better. 
 5. Install Burp Extensions 
 6. If using MacOS or Kali Linux and use the setup script in the `Easy Mac Setup or Easy Kali Setup` section at the bottom.df 
 	* This clones all needed git repos, pulls docker images, installs autochrome and starts docker containers
-	* requires Git, Brew, Docker, Chromium and Ruby to be installed
+	* requires Git, Brew, and Docker to be installed
 7. Clone Repos if not using `setup.sh` script from step 6.
-	* Autochrome (if using Chromium)
 	* SqlMap
 	* Payload Lists
 	* This Repo
@@ -41,27 +38,13 @@ Docker on Kali
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-## Browsers	
-### Chromium (only download if using autochrome)
-https://download-chromium.appspot.com
+## Browser
 
-### AutoChrome (Mac/Linux only)
-https://github.com/nccgroup/autochrome
-		
-macOS 10.9 (Mavericks) and higher 
-Ubuntu 16.04 (and other XDG-supporting Linuxes) 
-You will need ruby version 2.0 or higher and unzip. These are included in supported macOS versions. You may need to apt install ruby on Linux.
-		
-		git clone git@github.com:nccgroup/autochrome.git
-	        ruby autochrome/autochrome.rb
-		Launch Chromium.
-			* MacOS: open ~/Applications/Chromium.app
-			* Linux: ~/.local/autochrome/chrome
 ### Firefox 
 https://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
 	
 127.0.0.1:8080
-## Proxies
+## Proxy
 ### Burp
 https://portswigger.net/burp/communitydownload
 		
@@ -121,14 +104,13 @@ docker run --rm -it -p 80:80 cyrivs89/web-dvws
 ```
 	
 ## Easy MacOS Setup
-Make sure Git, Docker, Brew, Chromium and Ruby are already installed
+Make sure Git, Docker, and Brew are already installed
 ``` 
 git clone https://github.com/justinlarson/Web-App-Hacking-Workshop.git
 cd Web-App-Hacking-Workshop
 chmod 755 setup_Mac.sh
 ./setup_Mac.sh
 ```
-* Chromium should open configured for Burp
 * Juice shop will be running at `http://localhost:3000/#/search`
 * DVWS will be running at `http://localhost/dvws/`
 * VTM will be running at `http://localhost:8000`
