@@ -1,4 +1,4 @@
-# Brute Force
+# Brute Force ( 7 minutes)
 ### Description
 Ability to send hundreds or thousands of requests to an application without limit, with the intent to eventually gaining access to unauthorized resources
 
