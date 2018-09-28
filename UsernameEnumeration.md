@@ -1,4 +1,4 @@
-# Username Enumeration
+# Username Enumeration ( 10 Minutes)
 ### Description
 Ability to enumerate user information through differences in responses when providing valid and invalid information.
 * Usually involves disclosure of username, email addresses, phone numbers, etc., AKA 1/2 of the data required for authentication.
