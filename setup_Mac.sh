@@ -3,7 +3,7 @@ echo "[!] \n This won't work if you don't have brew I didn't want to make it sma
 brew cask install burp-suite &
 brew install git
 git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
-brew install hydra mysql python3 &
+brew install hydra mysql python3 
 git clone https://github.com/sqlmapproject/sqlmap.git &
 git clone https://github.com/danielmiessler/SecLists.git &
 git clone https://github.com/sethlaw/vtm.git 
