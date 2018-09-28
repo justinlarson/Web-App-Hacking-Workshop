@@ -1,4 +1,4 @@
-# Access Control
+# Access Control (15 min)
 ### Description
 Ability to access functionality and resources by manipulating a user request.
 One of the most common and easily-exploited flaws.
