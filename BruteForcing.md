@@ -108,9 +108,9 @@ So let's try to brute force the same endpoint, but using hydra, a different brut
 Validate access by using the following hydra commands for a positive and negative check:
 
 ```
-hydra -l chris -p test123 -s 8000 127.0.0.1 http-post-form "/taskManager/login:username=^USER^&password=^PASS^:S=Location\: /task"
+hydra -l chris -p test123 -s 8000 127.0.0.1 http-post-form "/taskManager/login/:username=^USER^&password=^PASS^:S=Location\: /task"
 
-hydra -l chris -p invalid -s 8000 127.0.0.1 http-post-form "/taskManager/login:username=^USER^&password=^PASS^:S=Location\: /task"
+hydra -l chris -p invalid -s 8000 127.0.0.1 http-post-form "/taskManager/login/:username=^USER^&password=^PASS^:S=Location\: /task"
 ```
 
 Since we are providing the user credentials for `chris`, this command is successful. 
