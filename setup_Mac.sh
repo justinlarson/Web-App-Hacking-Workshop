@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "[!] \n This won't work if you don't have git, brew, docker, Chromium, and ruby installed. I didn't want to make it smart enough to check \n [!]"
+echo "[!] \n This won't work if you don't have brew I didn't want to make it smart enough to check \n [!]"
+brew cask install burp-suite &
+brew install git
 git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
 brew install hydra mysql python3 &
 git clone https://github.com/sqlmapproject/sqlmap.git &
