@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "[!] \n This won't work if you don't have brew I didn't want to make it smart enough to check \n [!]"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install python
 brew install sqlmap
 brew cask install burp-suite &
