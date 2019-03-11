@@ -15,14 +15,18 @@ apt-get update -y
 apt-get install docker-ce -y
 
 # Clone all the repos for 
-git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
+#git clone https://github.com/justinlarson/web-app-hacking-workshop-solutions.git &
 #git clone https://github.com/sqlmapproject/sqlmap.git &
 git clone https://github.com/danielmiessler/SecLists.git &
 #git clone https://github.com/nccgroup/autochrome.git 
 
 # Installing autochrome
 #ruby autochrome/autochrome.rb
-
+git clone https://github.com/justinlarson/nodejs-graphql-mysql-example-sqli.git
+cd nodejs-graphql-mysql-example-sqli
+npm install
+PORT=8085 MYSQL_DB_USER=root MYSQL_DB_NAME=exapp MYSQL_DB_PASSWORD= MYSQL_DB_ADDRESS=localhost MYSQL_DB_POOL_SIZE=10 npm start &
+cd ..
 # VTM application 
 ## clone repo
 git clone https://github.com/sethlaw/vtm.git 
