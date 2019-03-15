@@ -190,10 +190,5 @@ Congratulations! You have successfully exploited a DOM-based XSS vulnerability i
 | ---- | ---- |
 | Altoro Mutual | http://demo.testfire.net|
 | Reflective Xss | :star: |
-| Juice Shop | http://localhost:3000|
-| Perform a reflected XSS attack with <script>alert("XSS")</script>.|	:star:|
-| Perform a DOM XSS attack with <script>alert("XSS")</script>.	|:star:|
-| Perform a persisted XSS attack with <script>alert("XSS")</script> bypassing a client-side security mechanism.	|:star::star::star:|
-| Perform a persisted XSS attack with <script>alert("XSS")</script> without using the frontend application at all.	|:star::star::star:|
-| Perform a persisted XSS attack with <script>alert("XSS")</script> bypassing a server-side security mechanism.	 | :star::star::star::star:|
+
 
