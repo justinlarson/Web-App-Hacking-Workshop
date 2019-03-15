@@ -155,8 +155,6 @@ Congratulations! You have successfully brute forced chris' & seth's password usi
 
 | Challenges | Difficulty |
 | ---- | ---- |
-| Juice Shop | http://localhost:3000 |
-| Bruteforce Admin Login | :star::star: |
 | Altoro Mutual | http://demo.testfire.net |
 | Bruteforce Logins | :star::star: |
 | Bonus: Security Misconfiguration | :star::star: |
