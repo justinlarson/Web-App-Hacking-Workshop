@@ -22,6 +22,6 @@ The Damn Vulnerable Web Service is not trying to be an actual application like V
 | ---- | ---- |
 |Provoke an error that is not very gracefully handled.|	:star:|
 |What tech is each application using? | :star: |
-|Access a salesman's forgotten backup file.	|:star::star::star:|
+
 
 
