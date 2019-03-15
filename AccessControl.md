@@ -142,10 +142,5 @@ Congratulations! You have successfully executed an Insecure Direct Object Refere
 | Altoro Mutual | http://demo.testfire.net |
 | Access the admin page with jsmith user (jsmith:demo1234) | :star::star: |
 | View another accounts history | :star::star: |
-| Juice Shop  | http://localhost:3000 |
-| Access the administration section of the store.(hint:look to the source) |	:star::star: |
-| Access someone else's basket. |	:star::star: | 
-| Get rid of all 5-star customer feedback. | 	:star::star:
-| Post some feedback in another users name. | 	:star::star::star:|
 
 
