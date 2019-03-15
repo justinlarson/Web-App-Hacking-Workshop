@@ -165,5 +165,4 @@ Congratulations! Test out `dade`'s password to verify that the credentials are a
 | Altoro Mutual | http://demo.testfire.net |
 | Bypass Login | :star: |
 | All your transaction belong to us and so do your DBs,tables,columns,usernames,and passwords | :star::star::star: |
-| Juice Shop | http://localhost:3000 |
-| Bypass login | :star: |
+
