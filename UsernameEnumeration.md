@@ -86,7 +86,5 @@ Congratulations! You have successfully enumerated valid usernames using Burp's I
 | ----- | ----- |
 | Altoro Mutual | http://demo.testfire.net |
 | Login Hint: Use CommonUsernameList.txt | :star:|
-| Juice Shop | http://localhost:3000 | 
-| User Registration | :star::star::star: |
-| Forgot Password | :star: :star: :star::star: |
+
 
